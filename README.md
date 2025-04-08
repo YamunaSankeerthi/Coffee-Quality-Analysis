@@ -1,23 +1,95 @@
-Coffee-Quality-Analysis
+# ☕ Coffee Quality Analysis
 
-This project explores coffee quality data to analyze factors influencing sensory attributes like aroma, flavor, and acidity. Using data from the Coffee Quality Institute, it involves data cleaning, visualization, and "What-If" analysis to uncover trends related to processing methods, origin regions, and defects.
+This project explores data from the **Coffee Quality Institute** to analyze the key factors influencing **coffee quality**, with a focus on **sensory attributes** like aroma, flavor, acidity, aftertaste, and total cup points.
 
-Coffee Quality Analysis This project explores the Coffee Quality Institute dataset to understand the factors influencing coffee quality, particularly focusing on sensory attributes such as aroma, flavor, acidity, aftertaste, and overall cup quality. The goal is to uncover trends and insights related to coffee processing methods, origin regions, and defects that impact the quality of coffee.
+---
 
-Project Overview:
-The dataset provides a comprehensive look at coffee quality ratings, including details on processing methods, origin regions, and sensory attributes. By analyzing these factors, the project aims to help coffee producers, roasters, and consumers understand what contributes to the highest quality coffee.
+## 📌 Project Overview
 
-Objective:
-Analyze the coffee quality data to understand the key factors contributing to higher coffee quality ratings. Examine relationships between processing methods, origin regions, defects, and the sensory attributes of coffee. Perform "What-If" analysis to predict how changes in variables could impact the overall cup quality.
+The dataset provides detailed information on coffee samples, including **processing methods**, **origin regions**, **defects**, and **sensory scores**. By analyzing these aspects, the project helps uncover **what makes high-quality coffee** and provides valuable insights for coffee producers, roasters, and enthusiasts.
 
-Key Features:
-Sensory Analysis: Evaluation of aroma, flavor, aftertaste, acidity, and overall cup quality. Processing Methods: Exploration of how different coffee processing methods affect quality ratings. Origin Regions: Analysis of coffee quality by geographical origin and the factors influencing it. Defect Analysis: Investigation of how the presence of defects influences sensory ratings and overall quality.
+---
 
-Tools Used:
-Power BI: For data visualization and creating interactive dashboards to present key insights. Excel/SQL (Optional): For data cleaning, preprocessing, and initial analysis. Python (Optional): For data manipulation and advanced statistical analysis.
+## 🎯 Objectives
 
-Key Insights:
-Processing Methods: Different methods of coffee processing, such as washed, honey, and natural, have varying impacts on sensory attributes. Origin Regions: Coffee from certain regions may consistently score higher in specific sensory attributes like acidity and flavor. Defects: The presence of certain defects negatively correlates with higher cup quality ratings. Sensory Trends: Analysis of sensory attributes to identify what combinations lead to higher overall cup quality.
+- Understand the key **factors contributing to higher coffee quality ratings**.
+- Analyze relationships between:
+  - **Processing methods**
+  - **Origin regions**
+  - **Defects**
+  - **Sensory attributes**
+- Use **"What-If" analysis** to predict how changes in sensory parameters could affect overall cup quality.
 
-How to Use:
-Clone or download the repository. Open the dataset in Power BI to explore the visualizations and insights. Review the analysis based on the sensory attributes, processing methods, and origin regions. Perform "What-If" analysis to explore how various factors affect coffee quality.
+---
+
+## 🔍 Key Features
+
+- **☕ Sensory Analysis:** Evaluation of **aroma, flavor, acidity, aftertaste, body, balance**, and **overall quality**.
+- **🔁 Processing Methods:** Compare how **washed, honey, and natural** processing methods affect coffee quality.
+- **🌍 Origin Regions:** Insights into how coffee from different **countries/regions** performs in sensory scoring.
+- **⚠️ Defect Analysis:** Identify how **primary and secondary defects** impact total cup points.
+- **📊 What-If Analysis:** Predictive impact of changing **aroma, acidity, and body** on the final score.
+
+---
+
+## 🛠 Tools & Technologies
+
+| Tool        | Purpose                                      |
+|-------------|----------------------------------------------|
+| **Power BI** | Data visualization & interactive dashboard   |
+| **Excel/SQL** (optional) | Data cleaning & basic filtering       |
+| **Python** (optional)    | Advanced analysis using Pandas/Numpy |
+
+---
+
+## 📈 Key Insights
+
+- **Processing Methods:**  
+  Washed coffee generally scores higher in cleanliness and brightness, while natural processed coffees often have more intense aroma and body.
+
+- **Origin Regions:**  
+  Certain countries consistently produce coffee with high flavor and acidity (e.g., Ethiopia, Kenya).
+
+- **Defects Impact:**  
+  Primary and secondary defects show a **negative correlation** with overall quality and total cup points.
+
+- **Sensory Trends:**  
+  High scores in **aroma + acidity + body** tend to align with better total cup scores.
+
+---
+
+## 🧪 How to Use This Project
+
+1. **Clone or Download** the repository.
+2. **Open the Power BI file** or import the dataset into Power BI Desktop.
+3. Use filters/slicers to explore:
+   - Sensory scores by origin
+   - Impact of processing methods
+   - Defects vs cup quality
+4. Try **What-If Analysis** to simulate how changing **aroma, acidity, or body** affects the overall score.
+
+---
+
+## 📂 Dataset
+
+- Provided by: **Coffee Quality Institute**
+- Cleaned & transformed version: `df_arabica_clean.csv`
+
+---
+
+## 📷 Sample Dashboards
+
+> *Insert screenshots of Power BI dashboards here if you're uploading to GitHub.*
+
+---
+
+## 🙋‍♀️ Author
+
+**Yamuna Gannina**  
+🎓 Data Science Enthusiast | 📊 Power BI Developer  
+📫 [yamunagannina@gmail.com](mailto:yamunagannina@gmail.com)  
+
+
+---
+
+
